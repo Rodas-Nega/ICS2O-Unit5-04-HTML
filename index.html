@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Calculating the area for a trapezoid with user inputs." />
+    <meta name="keywords" content="textbox, inputs, variables" />
+    <meta name="author" content="author" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Area of Square Trapezoid</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1 style="text-align:center;">Hello, World!</h1>
+    <h3 style="text-align:center;">Let's calculate the area of a trapezoid!</h3>
+    <form> 
+      <label for="side_a">Enter your length (a):</label>
+      <input type="text" id="side_a" size=5>
+      <br>
+      <label for="side_b">Enter your length (b):</label>
+      <input type="text" id="side_b" size=5>
+      <br>
+      <label for="height">Enter your height:</label>
+      <input type="text" id="height" size=5>
+      <br>
+      <label id="solution">The area of your trapezoid is =</label>
+      <br>
+      <br>
+      <button onclick="calculateAreaOfTrapezoid()">Calculate</button>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>

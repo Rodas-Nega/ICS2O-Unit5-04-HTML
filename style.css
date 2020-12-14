@@ -1,0 +1,13 @@
+body {
+  background-color: crimson;
+}
+
+form {
+  text-align: center;
+  background-color: coral;
+  border-style: inset;
+  border-color: black;
+  margin-left: 500px;
+  margin-right: 500px;
+  padding: 10px;
+}
